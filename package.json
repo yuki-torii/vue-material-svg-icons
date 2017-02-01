@@ -3,7 +3,6 @@
   "description": "vue-material-svg-icons",
   "version": "0.0.1",
   "author": "limichange <limichange@hotmail.com>",
-  "main": "dist/vue-material-svg-icons.common.js",
   "unpkg": "dist/vue-material-svg-icons.js",
   "scripts": {
     "dev": "rollup -cw",

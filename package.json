@@ -1,7 +1,7 @@
 {
   "name": "vue-material-svg-icons",
   "description": "vue-material-svg-icons",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "limichange <limichange@hotmail.com>",
   "unpkg": "dist/vue-material-svg-icons.js",
   "scripts": {

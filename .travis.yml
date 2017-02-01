@@ -1,0 +1,14 @@
+
+language: node_js
+
+node_js:
+  - "6"
+
+sudo: false
+
+before_script:
+  - npm install -g eslint-config-standard eslint-plugin-standard eslint-plugin-promise ava
+
+cache:
+  directories:
+    - node_modules

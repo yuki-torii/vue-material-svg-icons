@@ -14,7 +14,8 @@ $ yarn add vue-material-svg-icons
 
 ## Usage
 ```js
-import vue-material-svg-icons from 'vue-material-svg-icons'
+import icon from 'vue-material-svg-icons/packages/icon-3d-rotation'
+Vue.use(icon.name, icon)
 ```
 
 ## Development

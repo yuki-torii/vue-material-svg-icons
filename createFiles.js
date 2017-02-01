@@ -8,7 +8,7 @@ fs.readdir('./material-icons', (err, files) => {
     oldFileName = oldFileName.replace('svg', 'vue')
 
     fs.readFile(`./material-icons/${file}`, 'utf8', (err, res) => {
-      fs.writeFile(`./vue-icons/icon-${oldFileName}`, `
+      fs.writeFile(`./packages/icon-${oldFileName}`, `
         <template lang="html">
           ${res}
         </template>

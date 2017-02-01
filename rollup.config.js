@@ -7,7 +7,7 @@ let targets = [ { dest: 'dist/vue-material-svg-icons.js', format: 'umd' } ]
 
 export default {
   targets: targets,
-  entry: 'src/index.vue',
+  entry: 'src/index.js',
   plugins: [vue(), buble(), nodeResolve(), commonjs()],
   moduleName: 'vue-material-svg-icons',
 }

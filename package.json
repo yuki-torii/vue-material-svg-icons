@@ -12,7 +12,7 @@
     "lint": "eslint --ext .js src test/unit/specs"
   },
   "files": [
-    "vue-icons"
+    "packages"
   ],
   "license": "MIT",
   "pre-commit": [
